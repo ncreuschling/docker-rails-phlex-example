@@ -10,6 +10,7 @@ class Pages::HomeView < ApplicationView
 
     p class: 'text-center text-lg' do
       plain '🐳 Learn the Docker fundamentals at:'
+      whitespace
       strong do
         a class: 'border-b border-gray-900 mb-1', href: 'https://diveintodocker.com?ref=docker-rails-example' do
           'https://diveintodocker.com'
