@@ -1,6 +1,6 @@
 # An example Rails + Phlex + Docker app
 
-Preamble: This is an adapted version of [nickjj's great docker-rails-example upstream project](https://github.com/ncreuschling/docker-rails-phlex-example) built with [Phlex](https://www.phlex.fun/).
+Preamble: This is an adapted version of [nickjj's great docker-rails-example upstream project](https://github.com/nickjj/docker-rails-example) built with [Phlex](https://www.phlex.fun/).
 
 You could use this example app as a base for your new project or as a guide to
 Dockerize your existing Rails app.
@@ -17,7 +17,7 @@ late 2014.
 **This app is using Rails 7.1.3.2 and Ruby 3.3.1**. The screenshot doesn't get
 updated every time I bump the versions:
 
-[![Screenshot](.github/docs/screenshot.jpg)](https://github.com/nickjj/docker-rails-example/blob/main/.github/docs/screenshot.jpg?raw=true)
+[![Screenshot](.github/docs/screenshot.jpg)](https://github.com/ncreuschling/docker-rails-phlex-example/blob/main/.github/docs/screenshot.jpg?raw=true)
 
 ## Table of contents
 
