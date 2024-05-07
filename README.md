@@ -1,6 +1,6 @@
-# An example Rails + Docker app
+# An example Rails + Phlex + Docker app
 
-![CI](https://github.com/nickjj/docker-rails-example/workflows/CI/badge.svg?branch=main)
+Preamble: This is an adapted version of [nickjj's great docker-rails-example upstream project](https://github.com/ncreuschling/docker-rails-phlex-example) built with [Phlex](https://www.phlex.fun/).
 
 You could use this example app as a base for your new project or as a guide to
 Dockerize your existing Rails app.
@@ -14,7 +14,7 @@ practices](https://nickjanetakis.com/blog/best-practices-around-production-ready
 based on building and deploying dozens of assorted Dockerized web apps since
 late 2014.
 
-**This app is using Rails 7.1.3.2 and Ruby 3.3.0**. The screenshot doesn't get
+**This app is using Rails 7.1.3.2 and Ruby 3.3.1**. The screenshot doesn't get
 updated every time I bump the versions:
 
 [![Screenshot](.github/docs/screenshot.jpg)](https://github.com/nickjj/docker-rails-example/blob/main/.github/docs/screenshot.jpg?raw=true)
@@ -46,7 +46,7 @@ out for something else on your own.
 - [Redis](https://redis.io/)
 - [Sidekiq](https://github.com/mperham/sidekiq)
 - [Action Cable](https://guides.rubyonrails.org/action_cable_overview.html)
-- [ERB](https://guides.rubyonrails.org/layouts_and_rendering.html)
+- [Phlex](https://www.phlex.fun/)
 
 ### Front-end
 
@@ -55,7 +55,6 @@ out for something else on your own.
 - [StimulusJS](https://stimulus.hotwired.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Heroicons](https://heroicons.com/)
-- [Phlex](https://www.phlex.fun/)
 
 ## Main changes vs a newly generated Rails app
 
@@ -118,7 +117,7 @@ these commands for PowerShell if you want.
 #### Clone this repo anywhere you want and move into the directory:
 
 ```sh
-git clone https://github.com/nickjj/docker-rails-example hellorails
+git clone https://github.com/ncreuschling/docker-rails-phlex-example hellorails
 cd hellorails
 
 # Optionally checkout a specific tag, such as: git checkout 0.8.0
@@ -251,7 +250,7 @@ bin/rename-project myapp MyApp
 ```
 
 The [bin/rename-project
-script](https://github.com/nickjj/docker-rails-example/blob/main/bin/rename-project)
+script](https://github.com/ncreuschling/docker-rails-phlex-example/blob/main/bin/rename-project)
 is going to:
 
 - Remove any Docker resources for your current project
@@ -264,7 +263,7 @@ project generator tools or 3rd party dependencies.*
 
 If you're not comfy running the script or it doesn't work for whatever reasons
 you can [check it
-out](https://github.com/nickjj/docker-rails-example/blob/main/bin/rename-project)
+out](https://github.com/ncreuschling/docker-rails-phlex-example/blob/main/bin/rename-project)
 and perform the actions manually. It's mostly running a find / replace across
 files and then renaming a few directories and files.
 
@@ -385,13 +384,5 @@ notified](https://nickjanetakis.com/courses/deploy-to-production).
 
 ## About the author
 
-- Nick Janetakis | <https://nickjanetakis.com> | [@nickjanetakis](https://twitter.com/nickjanetakis)
-
-I'm a self taught developer and have been freelancing for the last ~20 years.
-You can read about everything I've learned along the way on my site at
-[https://nickjanetakis.com](https://nickjanetakis.com/).
-
-There's hundreds of [blog posts](https://nickjanetakis.com/blog/) and a couple
-of [video courses](https://nickjanetakis.com/courses/) on web development and
-deployment topics. I also have a [podcast](https://runninginproduction.com)
-where I talk with folks about running web apps in production.
+- Nicolai Reuschling
+- original idea: Nick Janetakis | <https://nickjanetakis.com> | [@nickjanetakis](https://twitter.com/nickjanetakis)
