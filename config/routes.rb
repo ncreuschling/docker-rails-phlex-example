@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'pages/home'
   root to: "pages#home"
 
   get "/up/", to: "up#index", as: :up

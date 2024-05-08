@@ -2,10 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a
-Changelog](https://keepachangelog.com/en/1.0.0/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+
+### Added
+
+- Add `phlex-rails`
+- Add `SVG` to list of acronyms
+- Add `yarn:add` to `run`
 
 ### Changed
 
@@ -14,6 +19,7 @@ Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update Node and Yarn install strategy to remove install script deprecation warning
 - A whole bunch of changes related to Rails 7.1.0, take a look at [this commit](https://github.com/nickjj/docker-rails-example/commit/94e9190e2e3db2cd350cd217db3b270b7c77fb72)
 - Update `rename-project` script to auto-delete temporary files
+- Rewrote views in phlex
 
 #### Languages and services
 
@@ -34,9 +40,14 @@ Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update `rack` to `3.0.10`
 - Update `rails` to `7.1.3.2`
 - Update `redis` to `5.2.0`
-- Update `sidekiq` to `7.2.2`
 - Update `stimulus-rails` to `1.3.3`
 - Update `turbo-rails` to `2.0.5`
+- Update `bigdecimal` to `3.1.8`
+- Update `reline` to `0.5.5`
+- Update `sidekiq` to `7.2.4`
+- Update `irb` to `1.13.1`
+- Update `jbuilder` to `2.12.0`
+- Update `redis-client` to `0.22.1`
 
 #### Front-end dependencies
 

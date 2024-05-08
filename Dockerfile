@@ -1,5 +1,8 @@
-FROM ruby:3.3.0-slim-bookworm AS assets
-LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
+ARG RUBY_VERSION="3.3.1"
+ARG RUBY_VERSION_FLAVOR="-slim-bookworm"
+
+FROM ruby:${RUBY_VERSION}${RUBY_VERSION_FLAVOR} AS assets
+LABEL maintainer="Nicolai Reuschling <nicolai@reuschling.dev>"
 
 WORKDIR /app
 
@@ -42,8 +45,8 @@ CMD ["bash"]
 
 ###############################################################################
 
-FROM ruby:3.3.0-slim-bookworm AS app
-LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
+FROM ruby:${RUBY_VERSION}${RUBY_VERSION_FLAVOR} AS app
+LABEL maintainer="Nicolai Reuschling <nicolai@reuschling.dev>"
 
 WORKDIR /app
 

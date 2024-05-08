@@ -89,6 +89,11 @@ function bundle:update {
   bundle:install
 }
 
+function yarn:add {
+  # Add dependencies to our package.json
+  _build_run_down js yarn add "${1}"
+}
+
 function yarn:install {
   # Install Yarn dependencies and write out a lock file
   _build_run_down js yarn install
