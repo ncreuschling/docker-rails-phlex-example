@@ -37,7 +37,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update `puma` to `6.4.2`
 - Update `rack-mini-profiler` to `3.3.0`
 - Update `rack-mini-profiler` to `3.3.1`
-- Update `rack` to `3.0.10`
+- Update `rack` to `3.0.11`
 - Update `rails` to `7.1.3.2`
 - Update `redis` to `5.2.0`
 - Update `stimulus-rails` to `1.3.3`
@@ -48,6 +48,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Update `irb` to `1.13.1`
 - Update `jbuilder` to `2.12.0`
 - Update `redis-client` to `0.22.1`
+- Update `nio4r` to `2.7.3`
+- Update `reline` to `0.5.6`
+- Update `net-imap` to `0.4.11`
 
 #### Front-end dependencies
 
